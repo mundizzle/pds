@@ -1,0 +1,35 @@
+{
+  "name": "pds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "lint-staged": {
+    "*.{js,json,css,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "scripts": {
+    "lint": "lynt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mundizzle/pds.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mundizzle/pds/issues"
+  },
+  "homepage": "https://github.com/mundizzle/pds#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@phtml/jsx": "^2.0.0",
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.5",
+    "lynt": "^0.5.5",
+    "phtml": "^2.0.2",
+    "prettier": "^1.16.4"
+  }
+}
